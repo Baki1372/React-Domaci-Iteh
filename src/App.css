@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#tabela-slikari{
+  margin-top: 30px;
+  margin-left: 380px;
+  width: 800px;
+}
