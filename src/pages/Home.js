@@ -1,8 +1,9 @@
 import {useState} from 'react';
 import React from 'react';
 import axios from 'axios';
-import {useEffect} from 'react'
 import Tabela from '../components/Tabela';
+import Nav from '../components/Nav';
+
 
 function Home(){
 
@@ -19,6 +20,7 @@ function Home(){
 
     return (
         <div className="home">
+            <Nav />
             <h1 className="mt-4">ITEH - REACT</h1>
             <button onClick={vratiSlikare} className="btn btn-primary btn-lg mt-5">Prikaži slikare</button>
                 <Tabela slikari={slikari} />
